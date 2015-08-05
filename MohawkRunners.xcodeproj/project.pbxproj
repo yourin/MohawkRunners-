@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB86690B1B71B9B00084E84C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB86690A1B71B9B00084E84C /* AppDelegate.swift */; };
+		DB86690D1B71B9B00084E84C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DB86690C1B71B9B00084E84C /* GameScene.sks */; };
+		DB86690F1B71B9B00084E84C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB86690E1B71B9B00084E84C /* GameScene.swift */; };
+		DB8669111B71B9B00084E84C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8669101B71B9B00084E84C /* GameViewController.swift */; };
+		DB8669141B71B9B00084E84C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB8669121B71B9B00084E84C /* Main.storyboard */; };
+		DB8669161B71B9B00084E84C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8669151B71B9B00084E84C /* Images.xcassets */; };
+		DB8669191B71B9B00084E84C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB8669171B71B9B00084E84C /* LaunchScreen.xib */; };
+		DB8669251B71B9B00084E84C /* MohawkRunnersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8669241B71B9B00084E84C /* MohawkRunnersTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB86691F1B71B9B00084E84C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB8668FD1B71B9B00084E84C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB8669041B71B9B00084E84C;
+			remoteInfo = MohawkRunners;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB8669051B71B9B00084E84C /* MohawkRunners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MohawkRunners.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB8669091B71B9B00084E84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB86690A1B71B9B00084E84C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB86690C1B71B9B00084E84C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DB86690E1B71B9B00084E84C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DB8669101B71B9B00084E84C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DB8669131B71B9B00084E84C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB8669151B71B9B00084E84C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DB8669181B71B9B00084E84C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DB86691E1B71B9B00084E84C /* MohawkRunnersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MohawkRunnersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB8669231B71B9B00084E84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB8669241B71B9B00084E84C /* MohawkRunnersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MohawkRunnersTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB8669021B71B9B00084E84C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB86691B1B71B9B00084E84C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB8668FC1B71B9B00084E84C = {
+			isa = PBXGroup;
+			children = (
+				DB8669071B71B9B00084E84C /* MohawkRunners */,
+				DB8669211B71B9B00084E84C /* MohawkRunnersTests */,
+				DB8669061B71B9B00084E84C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB8669061B71B9B00084E84C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB8669051B71B9B00084E84C /* MohawkRunners.app */,
+				DB86691E1B71B9B00084E84C /* MohawkRunnersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB8669071B71B9B00084E84C /* MohawkRunners */ = {
+			isa = PBXGroup;
+			children = (
+				DB86690A1B71B9B00084E84C /* AppDelegate.swift */,
+				DB86690C1B71B9B00084E84C /* GameScene.sks */,
+				DB86690E1B71B9B00084E84C /* GameScene.swift */,
+				DB8669101B71B9B00084E84C /* GameViewController.swift */,
+				DB8669121B71B9B00084E84C /* Main.storyboard */,
+				DB8669151B71B9B00084E84C /* Images.xcassets */,
+				DB8669171B71B9B00084E84C /* LaunchScreen.xib */,
+				DB8669081B71B9B00084E84C /* Supporting Files */,
+			);
+			path = MohawkRunners;
+			sourceTree = "<group>";
+		};
+		DB8669081B71B9B00084E84C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB8669091B71B9B00084E84C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB8669211B71B9B00084E84C /* MohawkRunnersTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB8669241B71B9B00084E84C /* MohawkRunnersTests.swift */,
+				DB8669221B71B9B00084E84C /* Supporting Files */,
+			);
+			path = MohawkRunnersTests;
+			sourceTree = "<group>";
+		};
+		DB8669221B71B9B00084E84C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB8669231B71B9B00084E84C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB8669041B71B9B00084E84C /* MohawkRunners */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB8669281B71B9B00084E84C /* Build configuration list for PBXNativeTarget "MohawkRunners" */;
+			buildPhases = (
+				DB8669011B71B9B00084E84C /* Sources */,
+				DB8669021B71B9B00084E84C /* Frameworks */,
+				DB8669031B71B9B00084E84C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MohawkRunners;
+			productName = MohawkRunners;
+			productReference = DB8669051B71B9B00084E84C /* MohawkRunners.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB86691D1B71B9B00084E84C /* MohawkRunnersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB86692B1B71B9B00084E84C /* Build configuration list for PBXNativeTarget "MohawkRunnersTests" */;
+			buildPhases = (
+				DB86691A1B71B9B00084E84C /* Sources */,
+				DB86691B1B71B9B00084E84C /* Frameworks */,
+				DB86691C1B71B9B00084E84C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB8669201B71B9B00084E84C /* PBXTargetDependency */,
+			);
+			name = MohawkRunnersTests;
+			productName = MohawkRunnersTests;
+			productReference = DB86691E1B71B9B00084E84C /* MohawkRunnersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB8668FD1B71B9B00084E84C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = tone.youring;
+				TargetAttributes = {
+					DB8669041B71B9B00084E84C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DB86691D1B71B9B00084E84C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DB8669041B71B9B00084E84C;
+					};
+				};
+			};
+			buildConfigurationList = DB8669001B71B9B00084E84C /* Build configuration list for PBXProject "MohawkRunners" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB8668FC1B71B9B00084E84C;
+			productRefGroup = DB8669061B71B9B00084E84C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB8669041B71B9B00084E84C /* MohawkRunners */,
+				DB86691D1B71B9B00084E84C /* MohawkRunnersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB8669031B71B9B00084E84C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8669191B71B9B00084E84C /* LaunchScreen.xib in Resources */,
+				DB8669161B71B9B00084E84C /* Images.xcassets in Resources */,
+				DB86690D1B71B9B00084E84C /* GameScene.sks in Resources */,
+				DB8669141B71B9B00084E84C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB86691C1B71B9B00084E84C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB8669011B71B9B00084E84C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB86690F1B71B9B00084E84C /* GameScene.swift in Sources */,
+				DB8669111B71B9B00084E84C /* GameViewController.swift in Sources */,
+				DB86690B1B71B9B00084E84C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB86691A1B71B9B00084E84C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8669251B71B9B00084E84C /* MohawkRunnersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB8669201B71B9B00084E84C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB8669041B71B9B00084E84C /* MohawkRunners */;
+			targetProxy = DB86691F1B71B9B00084E84C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB8669121B71B9B00084E84C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB8669131B71B9B00084E84C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB8669171B71B9B00084E84C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB8669181B71B9B00084E84C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB8669261B71B9B00084E84C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB8669271B71B9B00084E84C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB8669291B71B9B00084E84C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MohawkRunners/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB86692A1B71B9B00084E84C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MohawkRunners/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB86692C1B71B9B00084E84C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MohawkRunnersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MohawkRunners.app/MohawkRunners";
+			};
+			name = Debug;
+		};
+		DB86692D1B71B9B00084E84C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MohawkRunnersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MohawkRunners.app/MohawkRunners";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB8669001B71B9B00084E84C /* Build configuration list for PBXProject "MohawkRunners" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB8669261B71B9B00084E84C /* Debug */,
+				DB8669271B71B9B00084E84C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB8669281B71B9B00084E84C /* Build configuration list for PBXNativeTarget "MohawkRunners" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB8669291B71B9B00084E84C /* Debug */,
+				DB86692A1B71B9B00084E84C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB86692B1B71B9B00084E84C /* Build configuration list for PBXNativeTarget "MohawkRunnersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB86692C1B71B9B00084E84C /* Debug */,
+				DB86692D1B71B9B00084E84C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB8668FD1B71B9B00084E84C /* Project object */;
+}
